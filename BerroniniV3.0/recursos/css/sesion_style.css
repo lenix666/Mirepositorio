@@ -1,0 +1,169 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/12/2016, 0:02:07
+    Author     : meman94
+*/
+
+
+.container{
+    width: 49.5%;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+}
+
+.btn a:hover{
+    background-color: gray;
+}
+.btn {
+    
+    text-align: right;    
+    display: inline-block;
+}
+
+
+#logo_login{
+    width: 30%;
+    height: 15%;
+    display: inline-block;
+    
+}
+
+.btn a {
+    background-color: royalblue;        
+    padding: 12px;  
+
+}
+
+
+label::hover{
+    box-shadow: 0px 0px 20px #333;
+}
+
+#resultado label{
+    width: 45%;       
+}
+
+.btn a { color:#fff; text-shadow:0 1px 2px #161616;text-decoration: none;}
+
+#mask {
+    display: none;
+    position: fixed; left: 0; top: 0; 
+    background: whitesmoke;
+    z-index: 10;
+    width: 100%; height: 100%;
+    opacity: 0.96;
+       
+}
+
+
+
+.a-popup {
+    display:none;
+    padding: 10px;	
+    border: 2px solid #ddd;	
+    position: fixed;
+    width: 40%;
+    height: 30%;
+    top: 50%;
+    z-index: 99999;
+    box-shadow: 0px 0px 20px #999;  
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.b-popup {
+    display:none;
+    padding: 10px;	
+    border: 2px solid #ddd;	
+    position: fixed;
+    width: 40%;
+    height: 55%;
+    top: 50%;
+    z-index: 99999;
+    box-shadow: 0px 0px 20px #999;
+    text-align: center;   
+    background-color: whitesmoke;
+    
+   
+}
+
+
+#resultado{
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+img.btn_close {
+	float: right; 
+	margin: -28px -28px 0 0;
+}
+
+.button { 
+	
+	vertical-align: bottom;
+	display:inline-block;
+	padding:6px 6px 4px;
+	margin-top:10px;
+	font:13px; 
+	width:214px;
+ 
+       
+}
+
+.button:hover { 
+    background:#dddd; 
+    
+}
+
+#iconcarrito{
+    background-color: transparent;    
+   
+}
+
+#iconcarrito img{        /*CAMBIADO XD XD*/   
+    vertical-align: top;      
+}
+
+#iconcarrito img:hover{    /*CAMBIADO XD XD*/
+    opacity: .6;      
+}
+
+.btn .correo{
+    background-color: transparent;
+}
+
+.btn .correo:hover{
+    background-color: transparent;
+}
+#cajas-registro label{
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    float: left;
+    margin-top: 1%;
+}
+
+
+#cajas-registro input{
+    width: 60%;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    margin-top: 1%;
+}
+
+#cajas-registro select{
+    width: 61%;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    margin-top: 1%;
+}
